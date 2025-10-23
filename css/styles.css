@@ -76,3 +76,27 @@ padding-bottom: 110px;
 
 
 
+
+
+
+
+
+#gallery {
+
+}
+.gallery-title-section {
+	text-align: center;
+	margin-top: 120px;
+	margin-bottom: 40px;
+	background-image: url("images/gallery-background.jpg");
+}
+.gallery-title {
+	font-size: 2.5rem;
+	font-weight: 700;
+	color: black;
+}
+
+
+
+
+
