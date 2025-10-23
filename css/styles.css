@@ -9,7 +9,6 @@ html, body {
 	height: 100%;
 	font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
 	color: #310202;
-	background: #d60b3a;
 }
 
 /* Top header bar */
@@ -50,5 +49,14 @@ main {
 
 
 .gallery-title-section {
+	background-image: url("images/gallery-background.jpg");
+	background-size: cover;
+	background-position: center;
 	
+}
+.gallery-title {
+	color: black;
+	padding: 60px 20px;
+	font-size: 2rem;
+	text-align: center;
 }
