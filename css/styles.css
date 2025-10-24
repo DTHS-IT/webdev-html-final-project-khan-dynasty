@@ -1,3 +1,4 @@
+
 * {
 	box-sizing: border-box;
 	margin: 0;
@@ -161,14 +162,35 @@ padding-bottom: 110px;
 	text-align: center;
 	margin-top: 0px;
 	margin-bottom: 0px;
-	background-image: url("images/galleryBackground.jpg");
+	background-image: url("/images/galleryBackground.jpg");
 }
 .gallery-title {
 	font-size: 2.5rem;
 	font-weight: 700;
-	color: black;
+	color: white;
+	padding: 80px 0;
 }
-
+.before, .after {
+	text-align: center;
+	font-size: 1.5rem;
+	font-weight: 600;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+.gallery-content {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+	padding: 10px;
+	gap: 10px;
+}
+.gallery-sections {
+	display: flex;
+	justify-content: center;
+	gap: 40px;
+	margin-top: 30px;
+}
 
 
 
