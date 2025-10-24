@@ -4,6 +4,12 @@
 	padding: 0;
 }
 
+main {
+	padding-top: 72px; 
+	max-width: 1100px;
+	margin: 0 auto;
+}
+
 html, body {
 	height: 100%;
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -15,7 +21,7 @@ html, body {
 
 /* Top header bar */
 .top-bar {
-	position: static;
+	position: staticfixed;
 	top: 0;
 	left: 0;
 	width: 100%;
@@ -35,13 +41,6 @@ html, body {
 	align-items: center;
 }
 
-
-main {
-	padding-top: 72px; 
-	max-width: 1100px;
-	margin: 0 auto;
-	
-}
 
 .site-title {
 	display: flex;
@@ -67,6 +66,7 @@ a{
 	text-decoration: none;
 	color: #ffffff;
 }
+
 
 #header {
 padding-bottom: 110px;
