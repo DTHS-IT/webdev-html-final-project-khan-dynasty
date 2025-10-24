@@ -347,9 +347,20 @@ a{
 
 
 
-/*Services
+/*Services */
+.serviceImgs{
 
-
+	width: 300px;
+	height: 200px;
+	border-radius: 5%;
+}
+.serviceDiv{
+	text-align: center;
+	margin-bottom: 30px;
+	background-color: lightgray;
+	width: 300px;
+	border-radius: 5%;
+}
 
 
 
