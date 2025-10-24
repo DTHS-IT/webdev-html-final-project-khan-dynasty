@@ -110,7 +110,7 @@ input, textarea, select, button, a, nav, header, footer, main, div, span, p, li 
 /* Footer */
 
 footer {
-	position: fixed;
+	position: static;
 	bottom: 0px;
 	width: 100%;
 	height: 70px;
