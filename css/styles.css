@@ -98,8 +98,9 @@ input, textarea, select, button, a, nav, header, footer, main, div, span, p, li 
 	transition: background-color 160ms ease, color 160ms ease;
 }
 
-.top-nav__inner a:hover, {
-	color: #fff; 
+.top-nav__inner a:hover,
+.top-nav__inner a:focus {
+	color: #ffffff58;
 }
 
 
