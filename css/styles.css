@@ -142,7 +142,7 @@ a{
 }
 
 
-/* Gallery */
+
 
 #gallery {
 	content: center;
@@ -187,59 +187,88 @@ a{
 	gap: 40px;
 	margin-top: 30px;
 }
+ 
+.pair {
+	display: flex;
+	gap: 40px;
+	width: 100%;
+	max-width : 1100px;
+	justify-content: center;
+}
 
+.pair .column {
+	flex: 1 1 0;
+	min-width: 300px;
+}
 
-/* Gallery  */
+/*Gallery */
 
 /* Contact Page*/
+
 #contactForm {
-	margin: auto;
-	max-width: 600px;
-	margin-bottom: 80px;
-	padding: 20px;
-	background-color: #f9f9f9;
-	border-radius: 8px;
-	box-shadow: 0 2px 4px rgba(97, 88, 88, 0.1);
+    margin: auto;
+    max-width: 600px;
+    margin-bottom: 80px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(97, 88, 88, 0.1);
 }
 
 #contactForm label {
-	display: block;
-	margin-bottom: 8px;
-	font-weight: bold;
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
 }
 
 
 #contactForm input,
 #contactForm textarea {
-	width: 100%;
-	padding: 8px;
-	margin-bottom: 16px;
-	border-radius: 4px;
-	border: 1px solid #ccc;
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
 }
 
 #contactForm button {
-	background-color: #343c5c;
-	color: white;
-	padding: 10px 15px;
-	border-radius: 4px;
+    background-color: #343c5c;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 4px;
 }
 
 #contactForm button:hover {
-	background-color: #495588c9;
+    background-color: #495588c9;
 }
 
 
 
 .contactUs {
-	display:flex;
-	flex-direction: column;
-	align-items: center;
-	padding: 20px;
-	background-color: #4955884f;
-	border-radius: 8px;
-	box-shadow: 0 2px 4px rgba(97, 88, 88, 0.1);
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #4955884f;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(97, 88, 88, 0.1);
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
