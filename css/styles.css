@@ -100,17 +100,16 @@ input, textarea, select, button, a, nav, header, footer, main, div, span, p, li 
 }
 
 .top-nav__inner a:hover, {
-	background: rgba(255,255,255,0.08);
-	color: #fff;
-	outline: none;
+	color: #fff; 
 }
+
 
 /* Top header bar */
 
 /* Footer */
 
 footer {
-	position: static;
+	position: fixed;
 	bottom: 0px;
 	width: 100%;
 	height: 70px;
@@ -144,7 +143,7 @@ a{
 
 
 #header {
-	padding-bottom: 0px;
+padding-bottom: 110px;
 }
 
 
@@ -184,13 +183,6 @@ a{
 	flex-wrap: wrap;
 	padding: 10px;
 	gap: 10px;
-}
-.gallery-img {
-	transition: all 0.4s ease;
-}
-.gallery-img:hover {
-	transform: scale(1.08);
-
 }
 .gallery-sections {
 	display: flex;
@@ -355,20 +347,9 @@ a{
 
 
 
-/*Services */
-.serviceImgs{
+/*Services
 
-	width: 300px;
-	height: 200px;
-	border-radius: 5%;
-}
-.serviceDiv{
-	text-align: center;
-	margin-bottom: 30px;
-	background-color: lightgray;
-	width: 300px;
-	border-radius: 5%;
-}
+
 
 
 
