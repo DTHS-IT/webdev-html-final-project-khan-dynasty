@@ -99,11 +99,6 @@ input, textarea, select, button, a, nav, header, footer, main, div, span, p, li 
 	transition: background-color 160ms ease, color 160ms ease;
 }
 
-.top-nav__inner a:hover, {
-	background: rgba(255,255,255,0.08);
-	color: #fff;
-	outline: none;
-}
 
 /* Top header bar */
 
