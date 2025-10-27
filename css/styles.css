@@ -161,16 +161,16 @@ a{
 	background-image: url("/images/galleryBackground.jpg");
 }
 .gallery-title {
-	font-size: 2.5rem;
+	font-size: 40px;
 	font-weight: 700;
 	color: white;
 	padding: 80px 0;
 }
 .before, .after {
 	text-align: center;
-	font-size: 1.5rem;
+	font-size: 24px;
 	font-weight: 600;
-	margin-top: 20px;
+	margin-top: 10px;
 	margin-bottom: 10px;
 }
 .gallery-content {
@@ -181,25 +181,22 @@ a{
 	padding: 10px;
 	gap: 10px;
 }
+
+.gallery-content img, .gallery-img {
+	flex: 0 1 48%; 
+	max-width: 48%;
+	width: 100%;
+	object-fit: cover;
+	display: block;
+}
+
 .gallery-sections {
 	display: flex;
-	justify-content: center;
+	flex-direction: column;
 	gap: 40px;
 	margin-top: 30px;
 }
- 
-.pair {
-	display: flex;
-	gap: 40px;
-	width: 100%;
-	max-width : 1100px;
-	justify-content: center;
-}
 
-.pair .column {
-	flex: 1 1 0;
-	min-width: 300px;
-}
 
 /*Gallery */
 
