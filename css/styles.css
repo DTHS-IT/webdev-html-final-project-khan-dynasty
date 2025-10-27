@@ -189,6 +189,11 @@ a{
 	object-fit: cover;
 	display: block;
 }
+.gallery-img {
+	height: 300px;
+	width: 300px;
+}
+
 
 .gallery-sections {
 	display: flex;
