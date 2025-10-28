@@ -189,6 +189,11 @@ a{
 	object-fit: cover;
 	display: block;
 }
+.gallery-img {
+	height: 300px;
+	width: 300px;
+}
+
 
 .gallery-sections {
 	display: flex;
@@ -196,9 +201,6 @@ a{
 	gap: 40px;
 	margin-top: 30px;
 }
-
-
-/*Gallery */
 
 /* Contact Page*/
 
