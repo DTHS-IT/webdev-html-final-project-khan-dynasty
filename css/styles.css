@@ -255,7 +255,8 @@ a{
 /* About Page*/
 
 .aboutDiv {
-	length: 100%;
+	
+	padding: 20px;
 }
 
 
