@@ -296,12 +296,6 @@ a{
 	transition: transform 180ms ease, box-shadow 180ms ease;
 }
 
-.home-card:hover,
-.home-card:focus {
-	transform: translateY(-6px);
-	box-shadow: 0 12px 28px rgba(16,24,40,0.08);
-}
-
 
 
 
