@@ -296,6 +296,16 @@ a{
 	transition: transform 180ms ease, box-shadow 180ms ease;
 }
 
+/* Section divider */
+.divide {
+	display: block;
+	width: 100%;
+	height: 2px;
+	background-color: #737ca7c9;
+	margin: 5px 0;
+	border-radius: 9px;
+}
+
 
 
 
