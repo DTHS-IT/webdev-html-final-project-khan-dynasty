@@ -329,12 +329,12 @@ a{
   text-align: center;
   padding: 60px 20px 20px 20px;
   color: black;
-  background: #4955884f;;
+  background-image: url("/images/servicesBackground.jpg");
 }
 .services-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-  gap: 40px;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 32px;
   padding: 32px 0;
   width: 100%;
   padding-bottom: 90px;
