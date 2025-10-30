@@ -428,7 +428,7 @@ a{
 
 .territoryDiv {
 	margin: 40px; text-align: center;
-	max-width: 400px;
+	max-width: 400px; height: 250px;
 	margin-bottom: 80px;
 	padding: 20px;
 	background-color: #f9f9f9;
