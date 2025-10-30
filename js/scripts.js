@@ -1,26 +1,42 @@
 document.addEventListener("DOMContentLoaded", function () {
-  const form = document.getElementById("myForm");
-
+  const form = document.getElementById("contactForm");
   const successDiv = document.getElementById("success");
+
+  if (!form || !successDiv) return;
 
   form.addEventListener("submit", function (event) {
     event.preventDefault();
 
-    const fullName = document.getElementById("fullName").value;
-    const address = document.getElementById("address").value;
-    const city = document.getElementById("city").value;
-    const state = document.getElementById("state").value;
-    const zip = document.getElementById("zip").value;
+    const fullNameInput = document.getElementById("fullName");
+    const fullName = (fullNameInput && fullNameInput.value.trim()) || "";
 
-    successDiv.innerHTML = `
-        <h2>Form Submitted Successfully!</h2>
-        <p><strong>Name:</strong> ${name}</p>
-        <p><strong>Email:</strong> ${address}</p>
-        <p><strong>City:</strong> ${city}</p>
-        <p><strong>State:</strong> ${state}</p>
-        <p><strong>Zip:</strong> ${zip}</p>
-      `;
+    const emailInput = document.getElementById("email");
+    const phoneInput = document.getElementById("phoneNumber");
+    const email = (emailInput && emailInput.value.trim()) || "";
+    const phone = (phoneInput && phoneInput.value.trim()) || "";
 
+    // Use escaped values when inserting into HTML
+    const safeName = fullName ? escapeHtml(fullName) : "";
+    const safeEmail = email ? escapeHtml(email) : "";
+    const safePhone = phone ? escapeHtml(phone) : "";
+
+    successDiv.innerHTML = `<p class="thank-you">Thank you${
+      safeName ? `, ${safeName}` : ""
+    } for sending the contact. ` +
+      `<br><small>We will send a message to the phone number ${
+        safePhone || "(not provided)"
+      } or to the Gmail ${safeEmail || "(not provided)"}, you will be provided within a few days.</small></p>`;
+
+    // Reset the form and focus name field
     form.reset();
+    fullNameInput?.focus();
   });
+
+  function escapeHtml(str) {
+    return String(str).replace(/[&<>",'/`]/g, function (s) {
+      return (
+        {"&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;", "/": "&#47;", "`": "&#96;"}[s]
+      );
+    });
+  }
 });
