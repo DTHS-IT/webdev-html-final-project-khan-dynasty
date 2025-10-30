@@ -276,8 +276,8 @@ a{
 /* About Page*/
 
 .aboutDiv {
-	color: white;
-	padding: 20px;
+	color: rgb(34, 43, 89); display: flex; margin-bottom: 50px;
+	padding: 30px; 
 }
 
 /* Home Page */
